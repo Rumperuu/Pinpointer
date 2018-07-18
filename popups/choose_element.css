@@ -1,0 +1,38 @@
+/**
+   Title: Pinpointer
+   Version: 1.0
+   Author: Ben Goldsworthy <me@bengoldsworthy.net>
+
+   This file is a part of Pinpointer, a browser extension that allows you to 
+   create and share links to arbitrary content on a webpage.
+
+   This stylesheet styles the layout of the extension popup menu.
+*/
+
+html, body {
+   width: auto;
+}
+
+.hidden {
+   display: none;
+}
+
+.button {
+   color: white;
+   margin: 3% auto;
+   padding: 4px;
+   text-align: center;
+   font-size: 1.5em;
+   cursor: pointer;
+   background-color: green;
+}
+
+.button:hover {
+   background-color: darkgreen;
+}
+
+span {
+   border-radius: 25px;
+   padding: 4px;
+   font-weight: bold;
+}

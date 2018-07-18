@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- 
+   Title: Pinpointer
+   Version: 1.0
+   Author: Ben Goldsworthy <me@bengoldsworthy.net>
+
+   This file is a part of Pinpointer, a browser extension that allows you to 
+   create and share links to arbitrary content on a webpage.
+
+   This markup represents the extension popup menu.
+-->
+
+<html>
+
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="choose_element.css"/>
+   </head>
+   
+   <body>
+      <h1>Pinpointer</h1>
+      <div id="popup-content">
+         <p id="step1">Highlight the part of the page you want to create a link to, and then click the button below:</p>
+         <div class="button" id="grabElement">Click to select element.</div>
+         <p id="step2" class="hidden">Modify the exact selection below, and then click the button.</p>
+         <p id="selector" class="hidden"></p>
+         <div class="button hidden" id="generateLink">Click to generate link.</div>
+         <p id="link" class="hidden"></p>
+      </div>
+      <div id="error-content" class="hidden">
+         <p>Error.</p>
+      </div>
+      <script src="choose_element.js"></script>
+   </body>
+   
+</html>

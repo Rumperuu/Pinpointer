@@ -1,0 +1,35 @@
+{
+
+   "description": "Create and share links to arbitrary bits of webpages.",
+   "manifest_version": 2,
+   "name": "Pinpointer",
+   "version": "1.0",
+   "homepage_url": "https://github.com/Rumperuu/Pinpointer",
+   "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+   },
+
+   "permissions": [
+      "activeTab"
+   ],
+
+   "browser_action": {
+      "default_icon": "icons/icon-32.png",
+      "theme_icons": [{
+         "light": "icons/icon-32-light.png",
+         "dark": "icons/icon-32.png",
+         "size": 32
+      }],
+      "default_title": "Pinpointer",
+      "default_popup": "popups/choose_element.html"
+   },
+   
+   "content_scripts": [
+      {
+         "matches": ["http://*/*","https://*/*"],
+         "js": ["content_scripts/checkPage.js"]
+      }
+   ]
+
+}
