@@ -22,5 +22,5 @@ With the extension installed, any received Pinpoint links will automatically hig
 
 ### Minor
 
-* Add a button to cancel element highlighting when recieving a Pinpointer link.
+* Add a button to cancel element highlighting when receiving a Pinpointer link.
 * Should the first button on the form be removed, and just have clicking the Pinpointer icon go straight to the selector specification stage?
