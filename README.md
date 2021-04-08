@@ -2,8 +2,6 @@
 
 Pinpointer is a browser extension that allows you to create and share links to arbitrary content on a webpage.
 
-You can read more about the extension on my website [here](https://bengoldsworthy.net/program/pinpointer/).
-
 ## Use
 
 After installing the extension, an icon will appear in your browser toolbar. Select an element on a web page and click the icon, then click the first button to select that element. Fine-tune your choices, and then click the second button to generate the link.
